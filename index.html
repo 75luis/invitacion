@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montaga&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Meie+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+<body>
+    <nav class="menu">
+        <ul>
+          <li class="iniciales">D&A</li>
+          <li><a href="#sectionfiesta">Fiesta</a></li>
+          
+          <li><a href="#sectionCivil">Civil</a></li>
+          <li><a href="#sectionMapa">Como llegar</a></li>
+          <li><a href="#sectionForm">Asistencia</a></li>
+          <li><a href="#sectionRegalo">Regalo</a></li>
+        </ul>
+      </nav>
+    <section id="sectionNombres">
+        <div class="nombres ">
+        <h1 class="">Daniela</h1>
+        <h3>&</h3>
+        <h1>Alejandro</h1>
+        <p class="montaga-regular">El mejor tipo de amor es aquel que despierta el alma y nos hace inspirar a mas, <br>nos enciende el corazón y nos trae paz a la mente</p>
+    </div>
+    </section>
+    <section id="sectionInvitado" class="section">
+        <img src="imgs/9.png" alt="" class="florituras florituras-izquierda florituras-top">
+        <img src="imgs/6.png" alt=""class="florituras florituras-derecha florituras-top">
+        <div class="invitados ">
+        <h2>¡Estás invitado a nuestra boda!</h2>
+        <p>Queremos compartir contigo este momento tan especial en nuestras vidas. 
+           <br> Tu presencia hará que nuestra celebración sea aún más memorable.</p>
+        <img src="imgs/Group-5.png" alt="" class="garabato">
+    </div>
+    <img src="imgs/5.png" alt=""class="florituras florituras-izquierda florituras-bottom">
+    <img src="imgs/8.png" alt=""class="florituras florituras-derecha florituras-bottom">
+    </section>
+    <section id="sectionfiesta"  class="section">
+        <h2>Detalles de la Fiesta</h2>
+        <div class="fiesta">
+            <div class="datos">
+                <div class="dia dato">
+                    <h4>07</h4>
+                    <h5>Diciembre</h5>
+                </div>
+                <div class="lugar dato">
+                    <h5>Ubicación</h5>
+                    <h5>“Salón Dominica” 
+                        <br>
+                        San Martin Nro 695</h5>
+                </div>
+                <div class="ropa dato" >
+                    <h5>DressCode</h5>
+                    <h5>Elegante Sport</h5>
+                </div>
+                <div class="hora dato">
+                    <h4>21</h4>
+                    <h5>Horas</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sectionCuenta"  class="section">
+        <img src="imgs/image 36.png" alt="" class="florituras-top florituras-derecha">
+        <h2>Cuenta Regresiva</h2>
+        <div id="cuenta"></div>
+        <img src="imgs/Vector.png" alt="">
+        <img src="imgs/image 15-2.png" alt="" class="florituras-izquierda florituras-bottom">
+    </section>
+    <section id="sectionCivil" class="section">  
+        <img src="imgs/Group-4.png" alt="" class="florituras-top florituras-izquierda">
+        <h2>Detalles del Civil</h2>
+        <div class="datos">
+            <div class="dia dato">
+                <h4>06</h4>
+                <h5>Diciembre</h5>
+            </div>
+            <div class="lugar dato">
+                <h5>Ubicación</h5>
+                <h5>Sáenz Peña Nro. 605</h5>
+            </div>
+
+            <div class="hora dato">
+                <h4>11:50</h4>
+                <h5>Horas</h5>
+            </div>
+        </div>
+        <img src="imgs/Group-3.png" alt="" class="florituras-bottom florituras-derecha">
+    </section>
+    <section id="sectionMapa"class="section">
+        <img src="imgs/Group.png" alt="" class="garabato">
+        <h2>¿Cómo llegar?</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3261.595620990525!2d-58.238596799999996!3d-35.1667045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2c9d3882ba7e3%3A0x18cd572357a00919!2sBlvd.%20S%C3%A1enz%20Pe%C3%B1a%20605%2C%20B1980EEG%20Coronel%20Brandsen%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1728130148205!5m2!1ses!2sar" width="1000" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> <br>
+        <img src="imgs/Group-1.png" alt="" class="garabato">
+    </section>
+    <section id="sectionForm" class="section">
+        <img src="imgs/image 15-3.png" alt="" class="florituras-top florituras-derecha">
+        <h2>Confírmanos tu Asistencia</h2>
+       
+        <div class="form">
+            <div class="imagenf">
+                <img src="imgs/fotoForm.jpg" alt="">
+            </div>
+            <div class="formulario" >
+                <div id="formulario">
+                    <form name="my-google-sheet" id="my-google-sheet" method="POST" autocomplete="off" >
+                        <label for="nombre">Nombre y Apellido</label> <br>
+                        <input type="text" id="nombre" name="nombre" placeholder="Nombre y Apellido">
+                       <br> 
+                        <div class="confirmar">
+                            <label for="confirmar">¿Venís?</label> <br>
+                            <div>
+                            
+                            <input type="radio" id="si" name="confirmar" value="si"
+                                 >
+                          <label for="si">Si, voy</label>
+                        </div>
+                    
+                        <div>
+                          <input type="radio" id="no" name="confirmar" value="no">
+                          <label for="no">No, no puedo asistir</label>
+                        </div> <br>
+                        <div>
+                            <label for="cantidad">¿Cuántos Invitados traes? </label> <br>
+                            <input type="text" id="cantidad" name="cantidad" placeholder="1">
+                
+                        </div>
+                  
+                        <div id="poneRadio" class="poneRadio">
+                            <p> Por favor, confirma tu asistencia </p>
+                            </div>
+                        
+                        <div class="enviar">
+                            <div class="enviar">
+                                <button type="submit" id="btnSendForm" class="btn btn-primary btn-sm">
+                                    confirmar
+                                </button>
+                            </div>
+                            
+                        
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+        <div class="respuesta" id="respuesta">
+            <p>
+                <span id="nombreR"></span> <br> <br>
+               <span id="respuestaR"> </span>
+        
+            </p>
+           
+        </div>
+        <img src="imgs/image 15-4.png" alt="" class="florituras-izquierda florituras-bottom">
+    </section>
+
+    <section id="sectionRegalo" class="section">
+    <img src="imgs/image 15.png" alt="" class="florituras-derecha florituras-top">
+        <div class="regalo"><img src="imgs/Group-2.png" alt="" class="garabato"> <br>
+        <h2>Regalo</h2>
+        <p>Sin duda el mejor regalo para nosotros es su compañía en nuestro dia tan especial. En caso de que deseen brindarnos un obsequio adicional, se le agradecería que fuese en efectivo en el dia de la boda o por estas cuentas: </p>
+  <p class="caja">Caja de Ahorro en Pesos </p>
+  <div class="datosCaja"><p >
+    CBU: 0140092203703153142678 <br>
+Alias: MALETA.FORMA.CADETE
+  </p></div>
+  <p class="caja">Caja de Ahorro en Dolares</p>
+ <div class="datosCaja"><p >
+    CBU: 0140041004701950356277 <br>
+Alias: FILO.AJUAR.ROSCA
+  </p></div></div> 
+  <img src="imgs/image 15-1.png" alt="" class="florituras-bottom florituras-izquierda">
+    </section>
+    <footer>
+    <p>    Invitacion hecha por grupo Somos M.A.T.E <br>
+        Nuestras redes: <br>
+        Ig: @Somos_M.a.te.</p>
+    </footer>
+</body>
+<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+<script src="simplyCountdown.min.js"></script>
+<script src="countdown.js"></script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxbdvbsL8HylbF92dvGgIm94i9G22lh7B14m-2RqPiu4li_tF2A4MnKhRAsiezn1Fq8/exec'
+    const form = document.forms['my-google-sheet']
+  
+    let confirmacion;
+    form.addEventListener('submit', e => {
+         e.preventDefault()
+        let inputNombre = document.querySelector("#nombre").value; 
+             const radios = document.getElementsByName('confirmar');
+             confirmacion="responde gil"
+   for (var i = 0; i <  radios.length; i++) {
+  if (radios[i].checked) {
+    if(radios[i].value=="si"){
+        confirmacion="Genial, nos vemos el 11/8"
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>
+           
+        console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    }else if(radios[i].value=="no"){
+        confirmacion="Uh, que pena"
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>
+           
+        console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    }else{ alert("alele")}
+    break;
+  }
+}
+     
+        
+   
+
+
+
+$('#nombreR').text(inputNombre);
+$('#respuestaR').text(confirmacion);
+
+
+      
+       
+       if(confirmacion==="responde gil"){
+             $( "#formulario" ).css( "display", "block" );
+       $( "#poneRadio" ).css( "display", "block" );
+         }else{
+            $( "#formulario" ).css( "display", "none" );
+       $( "#respuesta" ).css( "display", "block" );
+           }
+
+    }) 
+</script>
+</html>

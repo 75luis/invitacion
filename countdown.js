@@ -1,6 +1,6 @@
 //window.onload
 simplyCountdown('#cuenta', {
-    year: 2024, // required
+    year: 2025, // required
     month: 12, // required
     day: 1, // required
     hours: 21, // Default is 0 [0-23] integer

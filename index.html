@@ -1,173 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nuestro Casamiento D&A</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montaga&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Meie+Script&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="imgs/logo.ico">
-    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Invitación de Quinceaños</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Agregar FontAwesome para los íconos -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
-
 <body>
-    <nav class="menu">
-        <ul>
-            <li class="iniciales">D&A</li>
-            <li><a href="#sectionfiesta">Fiesta</a></li>
-            <li><a href="#sectionCivil">Vestimenta</a></li>
-            <li><a href="#sectionMapa">Como llegar</a></li>
-            <li><a href="#sectionRegalo">Regalo</a></li>
-        </ul>
-    </nav>
-    <section id="sectionNombres">
-        <div class="nombres ">
-            <h1 class="">Dámaris</h1>
-            <h3>Santiago</h3>
-            <h1>Acosta</h1>
-            <p class="montaga-regular">¡Un dia muy especial para mi!</p>
+  <div class="container">
+    <div class="login-box">
+      <h1>¡Bienvenido a mi Quinceañero! 🎉</h1>
+      <form id="login-form">
+        <div class="input-group">
+          <label for="codigo">Código de Invitación</label>
+          <input type="text" id="codigo" placeholder="Introduce tu código" required>
         </div>
-    </section>
-    <section id="sectionInvitado" class="section">
-        <img src="imgs/9.png" alt="" class="florituras florituras-izquierda florituras-top">
-        <img src="imgs/6.png" alt="" class="florituras florituras-derecha florituras-top">
-        <div class="invitados ">
-            <h2>¡Estás invitado a mi Quinceañero!</h2>
-            <p>Porque esta noche es muy importante para mi, quiero compartirla con las personas que llevo en el corazón.
-                Porque eres una de ellas, quisiera que estés presente en una de las noches mas inolvidables de mi vida.
-                <br> Tu presencia hará que esta celebración sea aún más memorable.
-            </p>
-            <img src="imgs/Group-5.png" alt="" class="garabato">
+        <button type="submit"><i class="fas fa-sign-in-alt"></i> Ingresar</button>
+      </form>
+      <div id="mensaje" class="hidden">
+        <p id="saludo"></p>
+        <p id="entradas"></p>
+        <div>
+          <a href="invitacion.html">
+            <button type="button">Ver Invitacion</button>
+          </a>
         </div>
-        <img src="imgs/5.png" alt="" class="florituras florituras-izquierda florituras-bottom">
-        <img src="imgs/8.png" alt="" class="florituras florituras-derecha florituras-bottom">
-    </section>
-    <section id="sectionfiesta" class="section">
-        <h2>Detalles de la Fiesta</h2>
-        <div class="fiesta">
-            <div class="datos">
-                <div class="dia dato">
-                    <h4>11</h4>
-                    <h5>Enero</h5>
-                </div>
-                <div class="lugar dato">
-                    <h5>Ubicación</h5>
-                    <h5>Grass sintetico
-                        <br>
-                        "El Golazo"
-                    </h5>
-                </div>
-                <div class="ropa dato">
-                    <h5>Vestimenta</h5>
-                    <h5>Sport Elegante</h5>
-                </div>
-                <div class="hora dato">
-                    <h4>7:00</h4>
-                    <h5>PM</h5>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="sectionCuenta" class="section">
-        <img src="imgs/image 36.png" alt="" class="florituras-top florituras-derecha">
-        <h2>Cuenta Regresiva</h2>
-        <div id="cuenta"></div>
-        <img src="imgs/Vector.png" alt="">
-        <img src="imgs/image 15-2.png" alt="" class="florituras-izquierda florituras-bottom">
-    </section>
-    <!-- <section id="sectionCivil" class="section">
-        <img src="imgs/Group-4.png" alt="" class="florituras-top florituras-izquierda">
-        <h2>Detalles de vestimenta</h2>
-        <div class="datos">
-            <div class="dia dato">
-                <h4>Mujeres</h4>
-                <h5>Vestido</h5>
-            </div>
-            <div class="lugar dato">
-                <h4>Hombres</h4>
-                <h5>Formal</h5>
-            </div>
-
-
-        </div>
-        <img src="imgs/Group-3.png" alt="" class="florituras-bottom florituras-derecha">
-    </section> -->
-    <section id="sectionMapa" class="section">
-        <img src="imgs/Group.png" alt="" class="garabato">
-        <h2>¿Cómo llegar?</h2>
-        <iframe
-        
-            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4010.801758763909!2d-75.97071974588047!3d-9.15473099545586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOcKwMDknMTcuMCJTIDc1wrA1OCcwOC4wIlc!5e1!3m2!1ses-419!2spe!4v1735094438515!5m2!1ses-419!2spe"
-            width="1000" height="400" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe> <br>
-        <img src="imgs/Group-1.png" alt="" class="garabato">
-    </section>
-   
-    <section id="sectionRegalo" class="section">
-        <img src="imgs/image 15.png" alt="" class="florituras-derecha florituras-top">
-        <div class="regalo"><img src="imgs/Group-2.png" alt="" class="garabato"> <br>
-            <h2>Regalo</h2>
-            <p>Sin duda el mejor regalo para nosotros es su compañía en nuestro dia tan especial. En caso de que deseen
-                brindarnos un obsequio adicional, se le agradecería que lo llevase el dia de mi cumpleaños </p>           
-        </div>
-        <img src="imgs/image 15-1.png" alt="" class="florituras-bottom florituras-izquierda">
-    </section>
+      </div>
+      
+    </div>
+    
+  </div>
+  <script src="script.js"></script>
 </body>
-<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
-<script src="simplyCountdown.min.js"></script>
-<script src="countdown.js"></script>
-<script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbxbdvbsL8HylbF92dvGgIm94i9G22lh7B14m-2RqPiu4li_tF2A4MnKhRAsiezn1Fq8/exec'
-    const form = document.forms['my-google-sheet']
-
-    let confirmacion;
-    form.addEventListener('submit', e => {
-        e.preventDefault()
-        let inputNombre = document.querySelector("#nombre").value;
-        const radios = document.getElementsByName('confirmar');
-        confirmacion = "responde gil"
-        for (var i = 0; i < radios.length; i++) {
-            if (radios[i].checked) {
-                if (radios[i].value == "si") {
-                    confirmacion = "Genial, nos vemos el 11/8"
-                    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-                        .then(response =>
-
-                            console.log('Success!', response))
-                        .catch(error => console.error('Error!', error.message))
-                } else if (radios[i].value == "no") {
-                    confirmacion = "Uh, que pena"
-                    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-                        .then(response =>
-
-                            console.log('Success!', response))
-                        .catch(error => console.error('Error!', error.message))
-                } else { alert("alele") }
-                break;
-            }
-        }
-
-
-
-        $('#nombreR').text(inputNombre);
-        $('#respuestaR').text(confirmacion);
-
-
-
-
-        if (confirmacion === "responde gil") {
-            $("#formulario").css("display", "block");
-            $("#poneRadio").css("display", "block");
-        } else {
-            $("#formulario").css("display", "none");
-            $("#respuesta").css("display", "block");
-        }
-
-    }) 
-</script>
-
 </html>

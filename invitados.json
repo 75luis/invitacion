@@ -1,98 +1,290 @@
 [
   {
-    "codigo": "3212",
-    "nombre": "Luis Chaparin",
+    "codigo": "001",
+    "nombre": "Nilmar",
     "genero": "masculino",
-    "entradas": "3"
+    "entradas": 1
   },
   {
-    "codigo": "2003",
-    "nombre": "Ivonne Yarissa",
-    "genero": "femenino",
-    "entradas": "2"
-  },
-  {
-    "codigo": "3213",
-    "nombre": "Ana Garcia",
-    "genero": "femenino",
-    "entradas": "5"
-  },
-  {
-    "codigo": "3214",
-    "nombre": "Jorge Perez",
+    "codigo": "002",
+    "nombre": "Jorge",
     "genero": "masculino",
-    "entradas": "2"
+    "entradas": 1
   },
   {
-    "codigo": "3215",
-    "nombre": "Marta Rodriguez",
-    "genero": "femenino",
-    "entradas": "1"
-  },
-  {
-    "codigo": "3216",
-    "nombre": "Pedro Sanchez",
+    "codigo": "003",
+    "nombre": "Aaron",
     "genero": "masculino",
-    "entradas": "4"
+    "entradas": 1
   },
   {
-    "codigo": "3217",
-    "nombre": "Lucia Fernandez",
-    "genero": "femenino",
-    "entradas": "3"
-  },
-  {
-    "codigo": "3218",
-    "nombre": "Juan Morales",
+    "codigo": "004",
+    "nombre": "Frack",
     "genero": "masculino",
-    "entradas": "6"
+    "entradas": 1
   },
   {
-    "codigo": "3219",
-    "nombre": "Sofia Lopez",
-    "genero": "femenino",
-    "entradas": "7"
-  },
-  {
-    "codigo": "3220",
-    "nombre": "Carlos Martinez",
+    "codigo": "005",
+    "nombre": "Stalin",
     "genero": "masculino",
-    "entradas": "2"
+    "entradas": 1
   },
   {
-    "codigo": "3221",
-    "nombre": "Maria Gonzalez",
-    "genero": "femenino",
-    "entradas": "4"
-  },
-  {
-    "codigo": "3222",
-    "nombre": "Andres Hernandez",
+    "codigo": "006",
+    "nombre": "José",
     "genero": "masculino",
-    "entradas": "3"
+    "entradas": 1
   },
   {
-    "codigo": "3223",
-    "nombre": "Elena Ruiz",
-    "genero": "femenino",
-    "entradas": "5"
-  },
-  {
-    "codigo": "3224",
-    "nombre": "Roberto Diaz",
+    "codigo": "007",
+    "nombre": "Hans",
     "genero": "masculino",
-    "entradas": "4"
+    "entradas": 1
   },
   {
-    "codigo": "3225",
-    "nombre": "Carolina Perez",
-    "genero": "femenino",
-    "entradas": "3"
-  },
-  {
-    "codigo": "3226",
-    "nombre": "Martin Ramos",
+    "codigo": "008",
+    "nombre": "Angello",
     "genero": "masculino",
-    "entradas": "6"
+    "entradas": 1
+  },
+  {
+    "codigo": "009",
+    "nombre": "Adony",
+    "genero": "masculino",
+    "entradas": 1
+  },
+  {
+    "codigo": "010",
+    "nombre": "Yosbin",
+    "genero": "masculino",
+    "entradas": 1
+  },
+  {
+    "codigo": "011",
+    "nombre": "Eto",
+    "genero": "masculino",
+    "entradas": 1
+  },
+  {
+    "codigo": "012",
+    "nombre": "Andrea",
+    "genero": "femenino",
+    "entradas": 1
+  },
+  {
+    "codigo": "013",
+    "nombre": "Alina",
+    "genero": "femenino",
+    "entradas": 1
+  },
+  {
+    "codigo": "014",
+    "nombre": "Rosa",
+    "genero": "femenino",
+    "entradas": 1
+  },
+  {
+    "codigo": "015",
+    "nombre": "Jassmin",
+    "genero": "femenino",
+    "entradas": 1
+  },
+  {
+    "codigo": "016",
+    "nombre": "Angelly",
+    "genero": "femenino",
+    "entradas": 1
+  },
+  {
+    "codigo": "017",
+    "nombre": "Mileysi",
+    "genero": "femenino",
+    "entradas": 1
+  },
+  {
+    "codigo": "018",
+    "nombre": "Maycol J",
+    "genero": "masculino",
+    "entradas": 1
+  },
+  {
+    "codigo": "019",
+    "nombre": "Rafut",
+    "genero": "masculino",
+    "entradas": 1
+  },
+  {
+    "codigo": "020",
+    "nombre": "Sebastian",
+    "genero": "masculino",
+    "entradas": 1
+  },
+  {
+    "codigo": "021",
+    "nombre": "Antonio",
+    "genero": "masculino",
+    "entradas": 1
+  },
+  {
+    "codigo": "022",
+    "nombre": "Sara",
+    "genero": "femenino",
+    "entradas": 1
+  },
+  {
+    "codigo": "023",
+    "nombre": "Lucia y Lizbeth",
+    "genero": "femenino",
+    "entradas": 2
+  },
+  {
+    "codigo": "024",
+    "nombre": "Jean",
+    "genero": "masculino",
+    "entradas": 1
+  },
+  {
+    "codigo": "025",
+    "nombre": "Ian",
+    "genero": "masculino",
+    "entradas": 1
+  },
+  {
+    "codigo": "026",
+    "nombre": "Maycol R",
+    "genero": "masculino",
+    "entradas": 1
+  },
+  {
+    "codigo": "027",
+    "nombre": "Andrey",
+    "genero": "masculino",
+    "entradas": 1
+  },
+  {
+    "codigo": "028",
+    "nombre": "Nicoll",
+    "genero": "femenino",
+    "entradas": 1
+  },
+  {
+    "codigo": "029",
+    "nombre": "Daileny",
+    "genero": "femenino",
+    "entradas": 1
+  },
+  {
+    "codigo": "030",
+    "nombre": "Ctistian",
+    "genero": "masculino",
+    "entradas": 1
+  },
+  {
+    "codigo": "031",
+    "nombre": "Miriam y familia",
+    "genero": "femenino",
+    "entradas": 4
+  },
+  {
+    "codigo": "032",
+    "nombre": "Deny y familia",
+    "genero": "masculino",
+    "entradas": 4
+  },
+  {
+    "codigo": "033",
+    "nombre": "Yesica y familia",
+    "genero": "femenino",
+    "entradas": 4
+  },
+  {
+    "codigo": "034",
+    "nombre": "Erick y familia",
+    "genero": "masculino",
+    "entradas": 4
+  },
+  {
+    "codigo": "035",
+    "nombre": "Yeni y familia",
+    "genero": "femenino",
+    "entradas": 4
+  },
+  {
+    "codigo": "036",
+    "nombre": "Carmelo y esposa",
+    "genero": "masculino",
+    "entradas": 2
+  },
+  {
+    "codigo": "037",
+    "nombre": "Rolando y esposa",
+    "genero": "masculino",
+    "entradas": 2
+  },
+  {
+    "codigo": "038",
+    "nombre": "Juan y esposa",
+    "genero": "masculino",
+    "entradas": 2
+  },
+  {
+    "codigo": "039",
+    "nombre": "Cesar y esposa",
+    "genero": "masculino",
+    "entradas": 2
+  },
+  {
+    "codigo": "040",
+    "nombre": "Romer e hijos",
+    "genero": "masculino",
+    "entradas": 4
+  },
+  {
+    "codigo": "041",
+    "nombre": "mamita Eugenia",
+    "genero": "femenino",
+    "entradas": 1
+  },
+  {
+    "codigo": "042",
+    "nombre": "Lucía Santiago",
+    "genero": "femenino",
+    "entradas": 1
+  },
+  {
+    "codigo": "043",
+    "nombre": "Víctor e hijos",
+    "genero": "masculino",
+    "entradas": 4
+  },
+  {
+    "codigo": "044",
+    "nombre": "Teresa y familia",
+    "genero": "femenino",
+    "entradas": 4
+  },
+  {
+    "codigo": "045",
+    "nombre": "Silvio y familia",
+    "genero": "masculino",
+    "entradas": 4
+  },
+  {
+    "codigo": "046",
+    "nombre": "Erasmo y esposa",
+    "genero": "masculino",
+    "entradas": 2
+  },
+  {
+    "codigo": "047",
+    "nombre": "Joseph",
+    "genero": "masculino",
+    "entradas": 1
+  },
+  {
+    "codigo": "048",
+    "nombre": "Katy",
+    "genero": "femenino",
+    "entradas": 1
   }
 ]

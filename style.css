@@ -63,7 +63,7 @@ h4 {
 }
 
 .section {
-  background-image: url("imgs/image\ 39.png");
+  background-image: url("imgs/color.jpg");
   height: 40vh;
   padding: 10vh;
   position: relative; /* Necesario para que las imágenes absolutas se ubiquen en esta sección */

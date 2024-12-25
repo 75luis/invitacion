@@ -286,5 +286,11 @@
     "nombre": "Katy",
     "genero": "femenino",
     "entradas": 1
+  },
+  {
+    "codigo": "D15049",
+    "nombre": "Judith y familia",
+    "genero": "femenino",
+    "entradas": 4
   }
 ]

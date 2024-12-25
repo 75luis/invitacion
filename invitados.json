@@ -1,0 +1,92 @@
+[
+  {
+    "codigo": "3212",
+    "nombre": "Luis Chaparin",
+    "genero": "masculino",
+    "entradas": "3"
+  },
+  {
+    "codigo": "3213",
+    "nombre": "Ana Garcia",
+    "genero": "femenino",
+    "entradas": "5"
+  },
+  {
+    "codigo": "3214",
+    "nombre": "Jorge Perez",
+    "genero": "masculino",
+    "entradas": "2"
+  },
+  {
+    "codigo": "3215",
+    "nombre": "Marta Rodriguez",
+    "genero": "femenino",
+    "entradas": "1"
+  },
+  {
+    "codigo": "3216",
+    "nombre": "Pedro Sanchez",
+    "genero": "masculino",
+    "entradas": "4"
+  },
+  {
+    "codigo": "3217",
+    "nombre": "Lucia Fernandez",
+    "genero": "femenino",
+    "entradas": "3"
+  },
+  {
+    "codigo": "3218",
+    "nombre": "Juan Morales",
+    "genero": "masculino",
+    "entradas": "6"
+  },
+  {
+    "codigo": "3219",
+    "nombre": "Sofia Lopez",
+    "genero": "femenino",
+    "entradas": "7"
+  },
+  {
+    "codigo": "3220",
+    "nombre": "Carlos Martinez",
+    "genero": "masculino",
+    "entradas": "2"
+  },
+  {
+    "codigo": "3221",
+    "nombre": "Maria Gonzalez",
+    "genero": "femenino",
+    "entradas": "4"
+  },
+  {
+    "codigo": "3222",
+    "nombre": "Andres Hernandez",
+    "genero": "masculino",
+    "entradas": "3"
+  },
+  {
+    "codigo": "3223",
+    "nombre": "Elena Ruiz",
+    "genero": "femenino",
+    "entradas": "5"
+  },
+  {
+    "codigo": "3224",
+    "nombre": "Roberto Diaz",
+    "genero": "masculino",
+    "entradas": "4"
+  },
+  {
+    "codigo": "3225",
+    "nombre": "Carolina Perez",
+    "genero": "femenino",
+    "entradas": "3"
+  },
+  {
+    "codigo": "3226",
+    "nombre": "Martin Ramos",
+    "genero": "masculino",
+    "entradas": "6"
+  }
+]

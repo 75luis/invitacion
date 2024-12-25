@@ -1,0 +1,152 @@
+.montaga-regular {
+    font-family: "Montaga", serif;
+    font-weight: 400; /* Cambiado de 40 a 400 para un valor correcto */
+    font-style: normal;
+    line-height: 100%;
+    font-size: 20pt;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montaga", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color:#60C7F2;
+    text-align: center;
+  }
+  
+
+  
+  
+  @media (max-width: 768px) {
+    #sectionNombres h1,
+    #sectionNombres h3 {
+        font-size: 40pt; /* Ajustar tamaño de fuente para pantallas pequeñas */
+    }
+  
+    #sectionNombres, #sectionfiesta, #sectionRegalo, #sectionCuenta, #sectionMapa,  #sectionInvitado{ width: 90vw; height: 70vh; padding: 5vw; display: block;
+    }
+    
+    #sectionCivil{
+      height: 60vh;
+    }
+    h4 {
+        font-size: 30pt; /* Ajustar tamaño de fuente */
+    }
+  
+    h5 {
+        font-size: 12pt; /* Ajustar tamaño de fuente */
+    }
+  
+    #sectionCuenta .florituras-top{
+      z-index:1;
+      top: -1vh;
+    }
+  
+    #sectionCuenta h2{
+      z-index:0;
+    }
+  
+    .datos {
+      display: block;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    button {
+        width: 95%; /* Hacer botones responsivos */
+    }
+  
+    #cuenta { margin: 0 10vw ; padding: 15vw;
+        display: block;  justify-content: center;
+        align-items: center;
+      }
+      .simply-section {
+        height: 15vh;
+        width: 40vw;
+   
+      }
+  .datos h4, h5{padding: 0; margin: 0;}
+  .dato{margin: 1vh;}
+  iframe{
+   
+      width: 70vw;
+      height: 40vh;
+  
+  }
+      .dia {
+        border-right: none;
+        border-bottom: 2px solid;
+      }
+      
+      .hora {
+        border-left:none;
+        border-top:  2px solid;
+      }
+    .florituras-izquierda,
+    .florituras-derecha {
+        max-width: 40vw; /* Ajustar tamaño de las florituras */
+    }
+  .garabato{max-width: 30vw;}
+  .regalo{width: 80vw;}
+  .imagenf{
+    display: none;
+  }
+  #sectionCivil .florituras-bottom {
+    bottom: 0;
+    max-width: 20vw;
+    padding: 4%;
+  }
+  
+  #sectionCivil .florituras-top {
+    top: 0;
+    max-width: 20vw;
+    padding: 4%;
+  }
+  #sectionNombres{  
+    padding-top: 15vh;
+    background-size:cover;
+    background-position: top center;
+    height: 70vh;
+    border: 2px solid;
+    resize:initial
+  }
+  #sectionNombres p{  
+    padding-top: 20vh;
+    line-height: 110%;}
+  #sectionRegalo .florituras-izquierda {
+    display: none;
+  }
+  #sectionInvitado .florituras-top {
+   top: -5vh;
+    max-width: 50vw;
+  }
+  #sectionInvitado {
+    height: 40vh;
+  }
+  #sectionRegalo {
+    height: 70vh;
+    padding: 5vw;
+  }
+  .menu {
+  
+    padding: 1vw 1vw; /* Espacio interno del menú */
+  
+  }
+  
+  
+  .menu li {
+    margin: 0 2px; /* Espacio entre los elementos */
+    font-size: 10px;
+  }
+  
+  .menu a {
+    color: white; /* Color del texto de los enlaces */
+    text-decoration: none; /* Quitar subrayado */
+    padding: 5px 5px; /* Espacio interno en los enlaces */
+    transition: background-color 0.3s ease; /* Efecto suave al pasar el ratón */
+    border-radius: 5px; /* Bordes redondeados en los enlaces */
+  }
+  }
+  

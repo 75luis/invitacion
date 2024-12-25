@@ -12,7 +12,7 @@ body {
   font-family: "Montaga", serif;
   font-weight: 400;
   font-style: normal;
-  background-color: #FBFCF2;
+  background-color:#60C7F2;
   text-align: center;
 }
 
@@ -26,16 +26,16 @@ body {
 
 #sectionNombres h1,
 #sectionNombres h3 {
-  color: aliceblue;
+  color: rgb(0, 0, 0);
   font-family: "Meie Script", cursive;
-  font-weight: 400;
+  font-weight: 800;
   font-style: normal;
-  font-size: 100pt;
+  font-size: 100px;
   line-height: 10%;
 }
 
 #sectionNombres p {
-  color: aliceblue;
+  color: rgb(0, 0, 0);
   font-family: "Montaga", serif;
   font-style: normal;
 }
@@ -44,7 +44,7 @@ body {
   height: 60vh;
   margin: 0;
   background-size: 100%;
-  background-image:url("imgs/foto_Portada.jpg");
+  background-image:url("imgs/mariposa.png");
   padding: 10%;
 }
 
@@ -63,10 +63,12 @@ h4 {
 }
 
 .section {
+  background-image: url("imgs/image\ 39.png");
   height: 40vh;
   padding: 10vh;
   position: relative; /* Necesario para que las imágenes absolutas se ubiquen en esta sección */
   padding: 20px;
+  justify-content: center;
 }
 
 #sectionInvitado img {
@@ -76,7 +78,7 @@ h4 {
 
 #sectionfiesta {
   height: 40vh;
-  background-image: url("imgs/image 39.png");
+  background-image: url("imgs/tiempo.png");
   display: block;
   justify-content: center;
   align-items: center;
@@ -275,6 +277,7 @@ button {
 }
 
 #sectionRegalo {
+  background-image: url(./imgs/tiempo.png);
   padding: 5px;
   height: 50vh;
   justify-content: center;
@@ -397,7 +400,7 @@ display:none;}
   }
   
   #sectionCivil{
-    height: 60vh;
+    height: 45vh;
   }
   h4 {
       font-size: 30pt; /* Ajustar tamaño de fuente */
@@ -431,7 +434,7 @@ display:none;}
       align-items: center;
     }
     .simply-section {
-      height: 15vh;
+      height: 10vh;
       width: 40vw;
  
     }
@@ -476,12 +479,12 @@ iframe{
   padding-top: 15vh;
   background-size:cover;
   background-position: top center;
-  height: 70vh;
+  height: 30vh;
   border: 2px solid;
   resize:initial
 }
 #sectionNombres p{  
-  padding-top: 20vh;
+  padding-top: 15px;
   line-height: 110%;}
 #sectionRegalo .florituras-izquierda {
   display: none;
@@ -491,10 +494,10 @@ iframe{
   max-width: 50vw;
 }
 #sectionInvitado {
-  height: 40vh;
+  height: 30vh;
 }
 #sectionRegalo {
-  height: 70vh;
+  height: 35vh;
   padding: 5vw;
 }
 .menu {

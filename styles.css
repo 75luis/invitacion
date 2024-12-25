@@ -1,0 +1,115 @@
+/* Diseño principal */
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('foto.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .login-box {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 30px;
+    width: 350px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    background-image: url('flor.png'); /* Imagen de flores en la misma carpeta */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+
+  
+  h1 {
+    color: #fff;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    font-family: 'Verdana', sans-serif;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  input {
+    margin-top: 10px;
+    width: 92%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 1rem;
+    color: #333;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #FF9EC7;
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button:hover {
+    background-color: #FF7FB5;
+  }
+  
+  button i {
+    margin-right: 10px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #mensaje p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+  }
+  
+  #saludo {
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #4a2a37;
+  }
+  
+  #entradas {
+    font-size: 1.1rem;
+  }
+  
+  @media (max-width: 600px) {
+    .login-box {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 1.8rem;
+    }
+  }
+  

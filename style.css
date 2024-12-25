@@ -480,7 +480,7 @@ iframe{
   padding-top: 15vh;
   background-size:cover;
   background-position: top center;
-  height: 30vh;
+  height: 35vh;
   /* border: 0px solid; */
   resize:initial
 }
@@ -520,4 +520,18 @@ iframe{
   transition: background-color 0.3s ease; /* Efecto suave al pasar el ratón */
   border-radius: 5px; /* Bordes redondeados en los enlaces */
 }
+}
+
+@media (max-width: 380px) {
+  #sectionNombres{  
+    padding-top: 15vh;
+    background-size:cover;
+    background-position: top center;
+    height: 40vh;
+    /* border: 0px solid; */
+    resize:initial;
+  }
+  #sectionInvitado {
+    height: 45vh;
+  }
 }

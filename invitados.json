@@ -3,7 +3,7 @@
     "codigo": "D15001",
     "nombre": "Nilmar",
     "genero": "masculino",
-    "entradas": 1
+    "entradas": 2
   },
   {
     "codigo": "D15002",
@@ -292,5 +292,11 @@
     "nombre": "Judith y familia",
     "genero": "femenino",
     "entradas": 4
+  },
+  {
+    "codigo": "D15050",
+    "nombre": "Dick",
+    "genero": "masculino",
+    "entradas": 2
   }
 ]

@@ -63,7 +63,8 @@ h4 {
 }
 
 .section {
-  background-image: url("imgs/color.jpg");
+  background-color: #dfdfdf;
+  /* background-image: url("imgs/color.jpg"); */
   height: 40vh;
   padding: 10vh;
   position: relative; /* Necesario para que las imágenes absolutas se ubiquen en esta sección */
@@ -78,7 +79,7 @@ h4 {
 
 #sectionfiesta {
   height: 40vh;
-  background-image: url("imgs/tiempo.png");
+  background-color: #dfdfdf;
   display: block;
   justify-content: center;
   align-items: center;
@@ -277,7 +278,7 @@ button {
 }
 
 #sectionRegalo {
-  background-image: url(./imgs/tiempo.png);
+  background-color: #dfdfdf;
   padding: 5px;
   height: 50vh;
   justify-content: center;
@@ -480,7 +481,7 @@ iframe{
   background-size:cover;
   background-position: top center;
   height: 30vh;
-  border: 2px solid;
+  /* border: 0px solid; */
   resize:initial
 }
 #sectionNombres p{  

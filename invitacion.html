@@ -15,9 +15,18 @@
 </head>
 
 <body>
+
+    <audio id="musicPlayer" autoplay>
+        <source src="https://invitaciones.3hurras.com/wp-content/uploads/2024/06/Tercer-Cielo-No-Crezcas-Mas-Video-Oficial-1-mp3cut.net_.mp3" type="audio/mpeg">
+        Tu navegador no soporta el reproductor de audio.
+    </audio>
+    <!-- <div class="icons">
+        <img class="i-play" src="https://invitaciones.3hurras.com/wp-content/themes/eventos-theme/assets/img/play.png" alt="Reproducir" onclick="playMusic()">
+        <img class="i-pause" src="https://invitaciones.3hurras.com/wp-content/themes/eventos-theme/assets/img/pause.png" alt="Pausar" onclick="pauseMusic()">
+    </div> -->
     <nav class="menu">
         <ul>
-            <li class="iniciales">D&A</li>
+            <li class="iniciales">D</li>
             <li><a href="#sectionfiesta">Fiesta</a></li>
             <li><a href="#sectionCivil">Vestimenta</a></li>
             <li><a href="#sectionMapa">Como llegar</a></li>
@@ -36,7 +45,7 @@
         <img src="imgs/9.png" alt="" class="florituras florituras-izquierda florituras-top">
         <img src="imgs/6.png" alt="" class="florituras florituras-derecha florituras-top">
         <div class="invitados ">
-            <h2>¡Estás invitado a mi Quinceañero!</h2>
+            <h2>¡Estás invitado a mi Quinceañera!</h2>
             <p>Porque esta noche es muy importante para mi, quiero compartirla con las personas que llevo en el corazón.
                 Porque eres una de ellas, quisiera que estés presente en una de las noches mas inolvidables de mi vida.
                 <br> Tu presencia hará que esta celebración sea aún más memorable.
@@ -96,7 +105,7 @@
         </div>
         <img src="imgs/Group-3.png" alt="" class="florituras-bottom florituras-derecha">
     </section> -->
-    <section id="sectionMapa" class="section">
+    <!-- <section id="sectionMapa" class="section">
         <img src="imgs/Group.png" alt="" class="garabato">
         <h2>¿Cómo llegar?</h2>
         <iframe
@@ -105,7 +114,7 @@
             width="1000" height="400" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe> <br>
         <img src="imgs/Group-1.png" alt="" class="garabato">
-    </section>
+    </section> -->
    
     <section id="sectionRegalo" class="section">
         <img src="imgs/image 15.png" alt="" class="florituras-derecha florituras-top">
@@ -116,6 +125,23 @@
         </div>
         <img src="imgs/image 15-1.png" alt="" class="florituras-bottom florituras-izquierda">
     </section>
+
+    <script>
+        const musicPlayer = document.getElementById('musicPlayer');
+
+        function playMusic() {
+            musicPlayer.play();
+        }
+
+        function pauseMusic() {
+            musicPlayer.pause();
+        }
+
+        // Asegurar que el audio comience a reproducirse en dispositivos donde "autoplay" puede necesitar interacción
+        window.onload = () => {
+            musicPlayer.play();
+        };
+    </script>
 </body>
 <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
 <script src="simplyCountdown.min.js"></script>
